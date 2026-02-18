@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suggestions and Complaints - Sports</title>
+
+  <!-- Link to Font Awesome for the thumbs icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <style>
+    /* General body styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://example.com/sports-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      height: 100vh;
+    }
+
+    /* Centering the container with a shadow for a smooth look */
+    .container {
+      width: 50%;
+      margin: auto;
+      padding: 50px;
+      background-color: #0D8112; /* semi-transparent black */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-top: 50px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: black; /* sports yellow */
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+      animation: slideIn 1s ease-out;
+    }
+
+    /* Form field styling */
+    .form-group {
+      margin-bottom: 15px;
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      color: black; /* sports yellow */
+      font-size: 16px;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 14px;
+      animation: slideIn 1s ease-out;
+    }
+
+    textarea {
+      height: 20vh;
+    }
+
+    /* Thumbs up/thumbs down styling */
+    .thumbs-up, .thumbs-down {
+      font-size: 30px;
+      cursor: pointer;
+      padding: 5px;
+      transition: color 0.3s;
+    }
+
+    .thumbs-up:hover, .thumbs-down:hover {
+      color: black; /* Highlight on hover */
+    }
+
+    .selected {
+      color: #ffcc00; /* Selected color for thumbs up/down */
+    }
+
+    /* Button with hover animation */
+    button {
+      background-color: #ffcc00;
+      color: black;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #e6b800; /* Slightly darker yellow */
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #fff;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    /* Animation effects */
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideIn {
+      0% { transform: translateX(-50px); opacity: 0; }
+      100% { transform: translateX(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Suggestions and Complaints</h2>
+
+  <form id="feedback-form">
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="mobile">Mobile Number</label>
+      <input type="tel" id="mobile" name="mobile" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <!-- Feedback Type Selection (Thumbs Up/Down) -->
+    <div class="form-group">
+      <label>Feedback Type</label><br>
+      <i class="fas fa-thumbs-up thumbs-up" id="thumbs-up" onclick="selectFeedbackType('positive')"></i>
+      <i class="fas fa-thumbs-down thumbs-down" id="thumbs-down" onclick="selectFeedbackType('negative')"></i>
+    </div>
+
+    <!-- Country Selection Dropdown -->
+    <div class="form-group">
+      <label for="country">Country</label>
+      <select id="country" name="country" required>
+        <option value="">Select Your Country</option>
+        <option value="USA">United States</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">United Kingdom</option>
+        <option value="Australia">Australia</option>
+        <option value="India">India</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="Pakistan">Pakistan</option>
+        <!-- Add more countries here -->
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="feedback">Feedback / Complaint</label>
+      <textarea id="feedback" name="feedback" required></textarea>
+    </div>
+
+    <button type="submit">Submit Feedback</button>
+  </form>
+
+  <div class="footer">
+    <p>&copy; RYAN-SPORTS-CLUB. lets visit website.</p>
+  </div>
+</div>
+
+<script>
+  let feedbackType = ''; // Track feedback type (positive or negative)
+
+  // Function to handle selecting feedback type (positive/negative)
+  function selectFeedbackType(type) {
+    // Reset the icons to default state
+    document.getElementById('thumbs-up').classList.remove('selected');
+    document.getElementById('thumbs-down').classList.remove('selected');
+
+    // Update the feedbackType variable based on the user's selection
+    if (type === 'positive') {
+      document.getElementById('thumbs-up').classList.add('selected');
+      feedbackType = 'Suggestion'; // Positive feedback is a suggestion
+    } else if (type === 'negative') {
+      document.getElementById('thumbs-down').classList.add('selected');
+      feedbackType = 'Complaint'; // Negative feedback is a complaint
+    }
+  }
+
+  // Form submission handler
+  document.getElementById('feedback-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const mobile = document.getElementById('mobile').value;
+    const email = document.getElementById('email').value;
+    const country = document.getElementById('country').value;
+    const feedback = document.getElementById('feedback').value;
+
+    // Validate if feedback type is selected
+    if (!feedbackType) {
+      alert('Please select feedback type (Thumbs Up or Thumbs Down)');
+      return;
+    }
+
+    if (name && mobile && email && country && feedback) {
+      alert('Thank you for your feedback!');
+      // You can now send the form data to the backend or API here.
+
+      // Reset form after submission
+      document.getElementById('feedback-form').reset();
+      feedbackType = ''; // Reset feedback type
+      document.getElementById('thumbs-up').classList.remove('selected');
+      document.getElementById('thumbs-down').classList.remove('selected');
+    } else {
+      alert('Please fill in all the fields.');
+    }
+  });
+</script>
+
+</body>
+</html>

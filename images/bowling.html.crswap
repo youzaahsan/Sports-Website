@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indoor.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+ 
+ 
+
+</head>
+<nav class="navbar navbar-expand-lg navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">RYAN-Sports-Club</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Suggestion & Complaints</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Feedback</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sports
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Indoor</a></li>
+              <li><a class="dropdown-item" href="#">Outdoor</a></li>
+              <li><a class="dropdown-item" href="#">Recreational</a></li>
+            </ul>
+          </li>
+         
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<body>
+  <div class="container">
+    <img src="images/picture 2.webp" alt="" style="height: 50vh;" width="500vh" class="img">
+
+    <p> Bowling is a target sport and recreational activity in which a player rolls a ball toward pins (in pin bowling) or another target (in target bowling). The term bowling usually refers to pin bowling, most commonly ten-pin bowling, though in the United Kingdom and Commonwealth countries, bowling may also refer to target bowling, such as lawn bowls. Bowling is played by 120 million people in more than 90 countries, including 70 million people in the United States alone.<br><br>
+        
+        In pin bowling, the goal is to knock over pins on a long playing surface known as a lane. Lanes have a wood or synthetic surface onto which protective lubricating oil is applied in different specified oil patterns that affect ball motion. A strike is achieved when all the pins are knocked down on the first roll, and a spare is achieved if all the pins are knocked over on a second roll. Common types of pin bowling include ten-pin, candlepin, duckpin, nine-pin, and five-pin. The historical game skittles is the forerunner of modern pin bowling.
+
+        In target bowling, the aim is usually to get the ball as close to a mark as possible. The surface in target bowling may be grass, gravel, or synthetic.[2] Lawn bowls, bocce, carpet bowls, pétanque, and boules may have both indoor and outdoor varieties. Curling is also related to bowling.<br>
+        
+        Variations<br>
+        Bowling games can be distinguished into two general classes, pin bowling and target bowling.
+
+        Pin bowling
+        
+        Candlepin balls are the smallest, but candlepins are tallest and thinnest.
+        
+        Duckpins are the shortest, and duckpin balls are barely larger than candlepin balls.
+        
+        Ten-pin balls and pins are the heaviest.
+        
+        Five main variations are found in North America, with ten-pin being the most common but others being practiced in the eastern U.S. and in parts of Canada:[3]
+        
+        Ten-pin bowling: largest and heaviest pins, and bowled with a large ball with two or three finger holes.
+        Nine-pin bowling: uses a small ball without finger holes.
+        Candlepin bowling: tallest pins (at 40 cm or 16 in), thin with matching ends, bowled with the smallest and lightest (at 1.1 kg or 2.4 lb) handheld ball of any bowling sport, and the only form with no fallen pins removed during a frame.
+        Duckpin bowling: short, squat, and bowled with a handheld ball.
+        Five-pin bowling: pins are taller than duckpins and shorter than tenpins, between duckpins and candlepins in diameter with a rubber girdle, bowled with a handheld ball, mostly found in Canada.
+        Target bowling
+        Another form of bowling is usually played outdoors on a lawn. At outdoor bowling, the players throw a ball, which is sometimes eccentrically weighted, in an attempt to put it closest to a designated point or slot in the bowling area.<br><br>
+        
+         History <br>
+         Ancient history
+
+         Archeologist's drawing of items found in 1895 in an ancient tomb in Naqada, Egypt, thought to resemble the more modern game of skittles. The archeologist conjectured as to the particular arrangement of the items found.[4]
+         The earliest known forms of bowling date back to ancient Egypt,[5] with wall drawings depicting bowling being found in a royal Egyptian tomb dated to 3200 BC and miniature pins and balls in an Egyptian child's grave about 3200 BC. Remnants of bowling balls were found among artifacts in ancient Egypt going back to the Egyptian protodynastic period in 3200 BC.[6] What is thought to be a child's game involving porphyry (stone) balls, a miniature trilithon, and nine breccia-veined alabaster vase-shaped figures—thought to resemble the more modern game of skittles—was found in Naqada, Egypt, in 1895.[4]
+         
+         Balls were made using the husks of grains, covered in a material such as leather, and bound with string. Other balls made of porcelain have also been found, indicating that these were rolled along the ground rather than thrown due to their size and weight.[6] Some of these resemble the modern-day jack used in target bowl games. Bowling games of different forms are also noted by Herodotus as an invention of the Lydians in Asia Minor.[7]
+         
+         About 2,000 years ago, in the Roman Empire, a similar game evolved between Roman legionaries entailing the tossing of stone objects as close as possible to other stone objects, which eventually evolved into Italian bocce, or outdoor bowling.[8]
+         
+         Around AD 400, bowling began in Germany as a religious ritual to cleanse oneself from sin by rolling a rock into a club (kegel) representing the heathen, resulting in bowlers being called keglers<br> <br>
+        
+        Creation <br>
+        
+        n December 1891, James Naismith, a Canadian-American professor of physical education and instructor at the International Young Men's Christian Association Training School (now Springfield College) in Springfield, Massachusetts,[7] was trying to keep his gym class active on a rainy day.[8] He sought a vigorous indoor game to keep his students occupied and at proper levels of fitness during the long New England winters. After rejecting other ideas as either too rough or poorly suited to walled-in gymnasiums, he invented a new game in which players would pass a ball to teammates and try to score points by tossing the ball into a basket mounted on a wall. Naismith wrote the basic rules and nailed a peach basket onto an elevated track. Naismith initially set up the peach basket with its bottom intact, which meant that the ball had to be retrieved manually after each "basket" or point scored. This quickly proved tedious, so Naismith removed the bottom of the basket to allow the balls to be poked out with a long dowel after each scored basket. <br>
+        
+        Basketball was originally played with a soccer ball. These round balls from "association football" were made, at the time, with a set of laces to close off the hole needed for inserting the inflatable bladder after the other sewn-together segments of the ball's cover had been flipped outside-in.[13][14] These laces could cause bounce passes and dribbling to be unpredictable.[15] Eventually a lace-free ball construction method was invented, and this change to the game was endorsed by Naismith (whereas in American football, the lace construction proved to be advantageous for gripping and remains to this day). The first balls made specifically for basketball were brown, and it was only in the late 1950s that Tony Hinkle, searching for a ball that would be more visible to players and spectators alike, introduced the orange ball that is now in common use. Dribbling was not part of the original game except for the "bounce pass" to teammates. Passing the ball was the primary means of ball movement. Dribbling was eventually introduced but limited by the asymmetric shape of early balls.[dubious – discuss] Dribbling was common by 1896, with a rule against the double dribble by 1898.[16]<br><br>
+        
+        The peach baskets were used until 1906 when they were finally replaced by metal hoops with backboards. A further change was soon made, so the ball merely passed through. Whenever a person got the ball in the basket, his team would gain a point. Whichever team got the most points won the game.[17] The baskets were originally nailed to the mezzanine balcony of the playing court, but this proved impractical when spectators in the balcony began to interfere with shots. The backboard was introduced to prevent this interference; it had the additional effect of allowing rebound shots.[18] Naismith's handwritten diaries, discovered by his granddaughter in early 2006, indicate that he was nervous about the new game he had invented, which incorporated rules from a children's game called duck on a rock, as many had failed before it.[19]
+<img src="images/picture 5.webp" alt="">
+Frank Mahan, one of the players from the original first game, approached Naismith after the Christmas break, in early 1892, asking him what he intended to call his new game. Naismith replied that he had not thought of it because he had been focused on just getting the game started. Mahan suggested that it be called "Naismith ball", at which he laughed, saying that a name like that would kill any game. Mahan then said, "Why not call it basketball?" Naismith replied, "We have a basket and a ball, and it seems to me that would be a good name for it."[20][21] The first official game was played in the YMCA gymnasium in Albany, New York, on January 20, 1892, with nine players. The game ended at 1–0; the shot was made from 25 feet (7.6 m), on a court just half the size of a present-day Streetball or National Basketball Association (NBA) court.
+
+At the time, soccer was being played with 10 to a team (which was increased to 11). When winter weather got too icy to play soccer, teams were taken indoors, and it was convenient to have them split in half and play basketball with five on each side. By 1897–98, teams of five became standard.<br><br>
+        
+There is currently no tournament to determine a national high school champion. The most serious effort was the National Interscholastic Basketball Tournament at the University of Chicago from 1917 to 1930. The event was organized by Amos Alonzo Stagg and sent invitations to state champion teams. The tournament started out as a mostly Midwest affair but grew. In 1929 it had 29 state champions. Faced with opposition from the National Federation of State High School Associations and North Central Association of Colleges and Schools that bore a threat of the schools losing their accreditation the last tournament was in 1930. The organizations said they were concerned that the tournament was being used to recruit professional players from the prep ranks.[29] The tournament did not invite minority schools or private/parochial schools.
+
+The National Catholic Interscholastic Basketball Tournament ran from 1924 to 1941 at Loyola University.[30] The National Catholic Invitational Basketball Tournament from 1954 to 1978 played at a series of venues, including Catholic University, Georgetown and George Mason.[31] The National Interscholastic Basketball Tournament for Black High Schools was held from 1929 to 1942 at Hampton Institute.[32] The National Invitational Interscholastic Basketball Tournament was held from 1941 to 1967 starting out at Tuskegee Institute. Following a pause during World War II it resumed at Tennessee State College in Nashville. The basis for the champion dwindled after 1954 when Brown v. Board of Education began an integration of schools. The last tournaments were held at Alabama State College from 1964 to 1967.[33]<br> <br>
+        
+(International Basketball Federation) was formed in 1932 by eight founding nations: Argentina, Czechoslovakia, Greece, Italy, Latvia, Portugal, Romania and Switzerland. At this time, the organization only oversaw amateur players. Its acronym, derived from the French Fédération Internationale de Basket-ball Amateur, was thus "FIBA". Men's basketball was first included at the Berlin 1936 Summer Olympics, although a demonstration tournament was held in 1904. The United States defeated Canada in the first final, played outdoors. This competition has usually been dominated by the United States, whose team has won all but three titles. The first of these came in a controversial final game in Munich in 1972 against the Soviet Union, in which the ending of the game was replayed three times until the Soviet Union finally came out on top.[34] In 1950 the first FIBA World Championship for men, now known as the FIBA Basketball World Cup, was held in Argentina. Three years later, the first FIBA World Championship for women, now known as the FIBA Women's Basketball World Cup, was held in Chile. Women's basketball was added to the Olympics in 1976, which were held in Montreal, Quebec, Canada with teams such as the Soviet Union, Brazil and Australia rivaling the American squads.
+
+Worldwide, basketball tournaments are held for boys and girls of all age levels. The global popularity of the sport is reflected in the nationalities represented in the NBA. Players from all six inhabited continents currently play in the NBA. Top international players began coming into the NBA in the mid-1990s, including Croatians Dražen Petrović and Toni Kukoč, Serbian Vlade Divac, Lithuanians Arvydas Sabonis and Šarūnas Marčiulionis, Dutchman Rik Smits and German Detlef Schrempf.<br> <br>
+        
+Women's basketball development was more structured than that for men in the early years. In 1905, the executive committee on Basket Ball Rules (National Women's Basketball Committee) was created by the American Physical Education Association.[37] These rules called for six to nine players per team and 11 officials. The International Women's Sports Federation (1924) included a women's basketball competition. 37 women's high school varsity basketball or state tournaments were held by 1925. And in 1926, the Amateur Athletic Union backed the first national women's basketball championship, complete with men's rules.[37] The Edmonton Grads, a touring Canadian women's team based in Edmonton, Alberta, operated between 1915 and 1940. The Grads toured all over North America, and were exceptionally successful. They posted a record of 522 wins and only 20 losses over that span, as they met any team that wanted to challenge them, funding their tours from gate receipts.[38] The Grads also shone on several exhibition trips to Europe, and won four consecutive exhibition Olympics tournaments, in 1924, 1928, 1932, and 1936; however, women's basketball was not an official Olympic sport until 1976. The Grads' players were unpaid, and had to remain single. The Grads' style focused on team play, without overly emphasizing skills of individual players. The first women's AAU All-America team was chosen in 1929.[37] Women's industrial leagues sprang up throughout the United States, producing famous athletes, including Babe Didrikson of the Golden Cyclones, and the All American Red Heads Team, which competed against men's teams, using men's rules. By 1938, the women's national championship changed from a three-court game to two-court game with six players per team.[37]<br>
+        
+        <h3>Rules and Regulations</h3> <br>
+        
+        Measurements and time limits discussed in this section often vary among tournaments and organizations; international and NBA rules are used in this section<br><br>
+        
+        The object of the game is to outscore one's opponents by throwing the ball through the opponents' basket from above while preventing the opponents from doing so on their own. An attempt to score in this way is called a shot. A successful shot is worth two points, or three points if it is taken from beyond the three-point arc 6.75 meters (22 ft 2 in) from the basket in international games[40] and 23 feet 9 inches (7.24 m) in NBA games.[41] A one-point shot can be earned when shooting from the foul line after a foul is made. After a team has scored from a field goal or free throw, play is resumed with a throw-in awarded to the non-scoring team taken from a point beyond the endline of the court where the points were scored.[42]<br><br>
+        <h4>Playing Regulations</h4>
+        Games are played in four quarters of 10 (FIBA)[43] or 12 minutes (NBA).[44] College men's games use two 20-minute halves,[45] college women's games use 10-minute quarters,[46] and most United States high school varsity games use 8-minute quarters; however, this varies from state to state.[47][48] 15 minutes are allowed for a half-time break under FIBA, NBA, and NCAA rules[45][49][50] and 10 minutes in United States high schools.[47] Overtime periods are five minutes in length[45][51][52] except for high school, which is four minutes in length.[47] Teams exchange baskets for the second half. The time allowed is actual playing time; the clock is stopped while the play is not active. Therefore, games generally take much longer to complete than the allotted game time, typically about two hours.
+<img src="images/picture 4.webp" alt="">
+Five players from each team may be on the court at one time.[53][54][55][56] Substitutions are unlimited but can only be done when play is stopped. Teams also have a coach, who oversees the development and strategies of the team, and other team personnel such as assistant coaches, managers, statisticians, doctors and trainers.<br> <br>
+        
+For both men's and women's teams, a standard uniform consists of a pair of shorts and a jersey with a clearly visible number, unique within the team, printed on both the front and back. Players wear high-top sneakers that provide extra ankle support. Typically, team names, players' names and, outside of North America, sponsors are printed on the uniforms.<br><br>
+        
+A limited number of time-outs, clock stoppages requested by a coach (or sometimes mandated in the NBA) for a short meeting with the players, are allowed. They generally last no longer than one minute (100 seconds in the NBA) unless, for televised games, a commercial break is needed.
+
+The game is controlled by the officials consisting of the referee (referred to as crew chief in the NBA), one or two umpires (referred to as referees in the NBA) and the table officials. For college, the NBA, and many high schools, there are a total of three referees on the court. The table officials are responsible for keeping track of each team's scoring, timekeeping, individual and team fouls, player substitutions, team possession arrow, and the shot clock.<br><br>
+        
+        Equipment <br>
+        
+        The only essential equipment in a basketball game is the ball and the court: a flat, rectangular surface with baskets at opposite ends. Competitive levels require the use of more equipment such as clocks, score sheets, scoreboards, alternating possession arrows, and whistle-operated stop-clock systems.
+
+<img src="images/picture 6.webp" alt="">
+        An outdoor basketball net
+        A regulation basketball court in international games is 28 meters (92 feet) long and 15 meters (49 feet) wide. In the NBA and NCAA the court is 94 by 50 feet (29 by 15 meters).[41] Most courts have wood flooring, usually constructed from maple planks running in the same direction as the longer court dimension.[57][58] The name and logo of the home team is usually painted on or around the center circle.
+        
+        The basket is a steel rim 18 inches (46 cm) diameter with an attached net affixed to a backboard that measures 6 by 3.5 feet (1.8 by 1.1 meters) and one basket is at each end of the court. The white outlined box on the backboard is 18 inches (46 cm) high and 2 feet (61 cm) wide. At almost all levels of competition, the top of the rim is exactly 10 feet (3.05 meters) above the court and 4 feet (1.22 meters) inside the baseline. While variation is possible in the dimensions of the court and backboard, it is considered important for the basket to be of the correct height – a rim that is off by just a few inches can have an adverse effect on shooting. The net must "check the ball momentarily as it passes through the basket" to aid the visual confirmation that the ball went through.[59] The act of checking the ball has the further advantage of slowing down the ball so the rebound does not go as far.[<br>
+        
+        The ball may be advanced toward the basket by being shot, passed between players, thrown, tapped, rolled or dribbled (bouncing the ball while running).
+
+        The ball must stay within the court; the last team to touch the ball before it travels out of bounds forfeits possession. The ball is out of bounds if it touches a boundary line, or touches any player or object that is out of bounds.
+        
+        There are limits placed on the steps a player may take without dribbling, which commonly results in an infraction known as traveling. Nor may a player stop their dribble and then resume dribbling. A dribble that touches both hands is considered stopping the dribble, giving this infraction the name double dribble. Within a dribble, the player cannot carry the ball by placing their hand on the bottom of the ball; doing so is known as carrying the ball. A team, once having established ball control in the front half of their court, may not return the ball to the backcourt and be the first to touch it. A violation of these rules results in loss of possession.
+        
+        The ball may not be kicked, nor be struck with the fist. For the offense, a violation of these rules results in loss of possession; for the defense, most leagues reset the shot clock and the offensive team is given possession of the ball out of bounds.
+        
+        There are limits imposed on the time taken before progressing the ball past halfway (8 seconds in FIBA and the NBA; 10 seconds in NCAA and high school for both sexes), before attempting a shot (24 seconds in FIBA, the NBA, and U Sports (Canadian universities) play for both sexes, and 30 seconds in NCAA play for both sexes), holding the ball while closely guarded (5 seconds), and remaining in the restricted area known as the free-throw lane, (or the "key") (3 seconds). These rules are designed to promote more offense.
+        
+        There are also limits on how players may block an opponent's field goal attempt or help a teammate's field goal attempt. Goaltending is a defender's touching of a ball that is on a downward flight toward the basket, while the related violation of basket interference is the touching of a ball that is on the rim or above the basket, or by a player reaching through the basket from below. Goaltending and basket interference committed by a defender result in awarding the basket to the offense, while basket interference committed by an offensive player results in cancelling the basket if one is scored. The defense gains possession in all cases of goaltending or basket interference.<br><br>
+        
+       
+</div>
+    
+  
+</body>
+</html>

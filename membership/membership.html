@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="membership.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fonts links -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sports Club Navbar</title>
+</head>
+
+<nav class="navbar">
+  <div class="navbar-brand">
+    <img src="rayan.png" alt="Sports Club Logo" class="logo">
+    <span> Ryan Sports Club</span>
+  </div>
+  <button class="menu-toggle" id="menu-toggle">
+    ☰
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="../home page/home1.html">Home</a></li>
+    <li><a href="../feedback/aboutpagee.html">About Us</a></li>
+    <li><a href="../membership/membership.html">Membership</a></li>
+    <li class="dropdown">
+      <a href="#teams" class="dropdown-toggle">Sports </a>
+      <ul class="dropdown-menu">
+        <li><a href="../files/indoor.html">Indoor</a></li>
+        <li><a href="../files/outdoor.html">Outdoor</a></li>
+        <li><a href="../files/recreational.html">Recreational</a></li>
+      </ul>
+    </li>
+    <li><a href="../events/html/eventsbutton.html">Events</a></li>
+    <li><a href="../contact us/contact .html">Contact</a></li>
+    <li><a href="../feedback/feedddd.html">Feedback</a></li>
+    <li><a href="../test/sug.html">Suggest and Complaint</a></li>
+  </ul>
+</nav>
+<script src="script.js"></script>
+<script>
+  document.getElementById('menu-toggle').addEventListener('click', function () {
+  const navLinks = document.getElementById('nav-links');
+  navLinks.classList.toggle('show');
+});
+
+</script>
+
+<body>
+    
+    <section class="member">
+       
+        <div class="image1">
+            <img src="pic 1.webp" alt="">
+        </div>
+        <br><br>
+        <section class="container">
+       <div>
+        <h1 class="">INTRODUCTION</h1>
+        <H5 class="">Ryan Sports Club is a prominent sports organization dedicated to promoting physical fitness, sportsmanship, and athletic development among individuals of all ages. Established with a vision to foster a culture of health, wellness, and teamwork, the club offers a wide range of sports programs and activities for its members. From training sessions in popular sports like football, basketball, cricket, and athletics, to providing state-of-the-art facilities, Ryan Sports Club is committed to nurturing talent and encouraging community participation in sport456
+            The club aims to create a platform for both amateur and professional athletes to excel and develop their skills, while also promoting a strong sense of discipline, leadership, and collaboration. Through its various training programs, events, and competitions, Ryan Sports Club strives to build not only athletic excellence but also strong social bonds within the community.
+        </H5>
+       </div>
+       <br><br>
+   <div>
+    <section class="accordian">
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                How do I become a member of the sports club?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             <p>To become a member of the Ryan Sports Club, simply visit our website or visit our main office. Fill out the membership application form, pay the required fees, and you will receive your membership ID. You can choose from various membership packages based on the type of access and services you prefer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What are the different types of membership available?
+                We offer several types of memberships:
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Individual Membership: For single members who wish to access facilities and participate in our events.
+                Family Membership: Includes access for two adults and children under 18 years.
+                Premium Membership: Includes priority booking for facilities, exclusive events, and special discounts.
+                Corporate Membership: For businesses that want to offer their employees access to the club.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                What facilities are included in the membership?
+                Membership includes access to:
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               <p> Sports facilities such as football, cricket, basketball courts, and swimming pools.
+                Gym and fitness center with expert trainers.
+                Yoga and wellness programs.
+                Locker rooms and changing facilities.
+                Access to our regular workshops and events.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                How much does membership cost?
+
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               <p>The cost of membership varies depending on the type of membership you choose. For individual members, prices start at $50 per month, while family and corporate memberships offer discounts for multiple members. Please contact our office or visit our website for detailed pricing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+                Are there any discounts available for long-term memberships?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               <p>Yes, we offer discounts for members who opt for annual memberships or longer durations. For example, an annual membership may offer a 10% discount compared to monthly rates. Special promotions and discounts may also be available from time to time.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
+                Can I bring guests to the sports club?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               <p>Yes, members are allowed to bring guests, but there may be an additional fee depending on the facilities and the number of guests. Guests must follow the same rules and guidelines as members during their visit. Check with the front desk for more details.
+                <br><br></p>
+              </div>
+            </div>
+          </div>
+   </div>
+</section>
+</section>
+    <section class="form">
+    <div class="form-container">
+        <h2>Membership Form</h2>
+        <form action="#" method="POST" class="membership-form">
+            <!-- Personal Information Section -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+            </fieldset>
+
+            <!-- Membership Type Section -->
+            <fieldset>
+                <legend>Membership Type</legend>
+                <div class="form-group">
+                    <label for="membership-type">Select Membership Type:</label>
+                    <select id="membership-type" name="membership-type" required>
+                        <option value="individual">Individual</option>
+                        <option value="family">Family</option>
+                        <option value="premium">Premium</option>
+                        <option value="corporate">Corporate</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <!-- Payment Information Section -->
+            <fieldset>
+                <legend>Payment Information</legend>
+                <div class="form-group">
+                    <label for="payment-method">Payment Method:</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="credit-card">Credit Card</option>
+                        <option value="debit-card">Debit Card</option>
+                        <option value="paypal">PayPal</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="card-number" name="card-number" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="expiration-date">Expiration Date:</label>
+                    <input type="month" id="expiration-date" name="expiration-date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cvv">CVV:</label>
+                    <input type="string" id="cvv" name="cvv" required>
+                </div>
+            </fieldset>
+
+            <!-- Submit Button -->
+            <div class="form-actions">
+                <button type="submit" class="submit-btn">Submit</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </form>
+    </div>
+</section>
+    </section>
+
+
+
+
+
+
+
+ <!-- footer -->
+ <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+  
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>RYAN SPORTS CLUB</h3>
+            <p>
+              <i class="bx bx-chevron-right"></i>Karachi <br> 
+              <i class="bx bx-chevron-right"></i>Sindh <br> 
+              <i class="bx bx-chevron-right"></i>Pakistan <br> 
+            </p>
+            <strong>Phone:</strong> +923345987677 <br>
+            <strong>Email:</strong> Ryansportsclub@gmail.com <br>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Usefull Links</h4>
+           <ul>
+            <li><i class="bx bx-chevron-right"></i><a href="#">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i><a href="#">About Us</a></li>
+            <li><i class="bx bx-chevron-right"></i><a href="#">Membership</a></li>
+            <li><i class="bx bx-chevron-right"></i><a href="#">Feedback</a></li>
+            <li><i class="bx bx-chevron-right"></i><a href="#">Contact us</a></li>
+           </ul>
+          </div>
+  
+  
+  
+         
+  
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+  
+           <ul>
+            <li><i class="bx bx-chevron-right"></i><a href="indoor.html">Indoor</a></li>
+            <li><i class="bx bx-chevron-right"></i><a href="outdoor.html">Outdoor</a></li>
+            <li><i class="bx bx-chevron-right"></i><a href="recreational.html">Recreational</a></li>
+            <li><i class="bx bx-chevron-right"></i><a href="#">Events</a></li>
+            <li><i class="bx bx-chevron-right"></i><a href="#">Suggest & Complaint</a></li>
+           </ul>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p style="color: white;">Feel free to contact us and know more about us !</p>
+  
+            <div class="socail-links mt-3">
+              <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.skype.com" target="_blank"><i class="fa-brands fa-skype"></i></a>
+              <a href="https://www.linkin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>RYAN SPORTS CLUB</span></strong>. All Rights Reserved
+      </div>
+      
+    </div>
+  </footer>
+  <!-- footer -->
+  
+  
+  </body>
+  </html>
+      
+    
+  

@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indoor.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fonts links -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sports Club Navbar</title>
+</head>
+
+<nav class="navbar">
+  <div class="navbar-brand">
+    <img src="../rayan.png" alt="Sports Club Logo" class="logo">
+    <span> Ryan Sports Club</span>
+  </div>
+  <button class="menu-toggle" id="menu-toggle">
+    ☰
+  </button>
+  
+  <ul class="nav-links" id="nav-links">
+    <li><a href="../home page/home1.html">Home</a></li>
+    <li><a href="../feedback/aboutpagee.html">About Us</a></li>
+    <li><a href="../membership/membership.html">Membership</a></li>
+    <li class="dropdown">
+      <a href="#teams" class="dropdown-toggle">Sports </a>
+      <ul class="dropdown-menu">
+        <li><a href="indoor.html">Indoor</a></li>
+        <li><a href="outdoor.html">Outdoor</a></li>
+        <li><a href="recreational.html">Recreational</a></li>
+      </ul>
+    </li>
+    <li><a href="../events/html/eventsbutton.html">Events</a></li>
+    <li><a href="../contact us/contact .html">Contact</a></li>
+    <li><a href="../feedback/feedddd.html">Feedback</a></li>
+    <li><a href="../test/sug.html">Suggest and Complaint</a></li>
+  </ul>
+</nav>
+<script src="script.js"></script>
+<script>
+  document.getElementById('menu-toggle').addEventListener('click', function () {
+  const navLinks = document.getElementById('nav-links');
+  navLinks.classList.toggle('show');
+});
+
+</script>
+
+<body>
+    <div class="container" id="about">
+        <h3>Welcome to our Indoor sports club!</h3>
+        <hr><p>
+            Indoor games and sports are a variety of structured games or competitive physical exercises, typically carried out either at home, in a well-sheltered building, or in a specially constructed sport venue such as a gym, a natatorium, an arena or a roofed stadium.</p>
+        <hr>
+       
+    </div>
+
+    <div class="container" id="about">
+        <h3>Basketball</h3>
+       
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card">
+                    <img src="../images/picture.webp" alt="" width="100%" height="400px">
+                </div>
+            </div>
+            <div class="col-md-7 py-3 py-md-0">
+                <hr><p>Basketball is an exciting and fast-paced team sport played on a rectangular court with two hoops at opposite ends. Each team consists of five players aiming to score points by shooting the ball through the opposing team's hoop. Points are awarded for field goals (2 or 3 points) and free throws (1 point). The game emphasizes athleticism, strategy, and teamwork, making it thrilling to play and watch. A standard basketball court includes key areas like the three-point arc, free-throw line, and center circle. Professional games are played in four quarters, typically lasting 48 minutes in the NBA. Basketball is accessible to all, requiring only a ball and a hoop to play. It promotes physical fitness, coordination, and quick decision-making. With global leagues and tournaments, the sport enjoys immense popularity worldwide. Basketball unites players and fans in a shared passion for the game.</p>
+                <div id="bt"><button><a href="bbdetail.html">Read More...</a></button></div> </hr>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="container" id="about">
+       <hr> <h3>Badminton</h3> </hr>
+       
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-7 py-3 py-md-0">
+               <hr> <p>Badminton is a fast-paced and engaging racket sport played on a rectangular court divided by a net. It can be played in singles (one player per side) or doubles (two players per side). The objective is to score points by hitting a shuttlecock over the net into the opponent's court, ensuring it isn’t returned. Precision, agility, and quick reflexes are key to mastering the game. Played both indoors and outdoors, badminton is loved for its accessibility and fitness benefits. A standard court features defined boundaries, a central net, and clear markings for singles and doubles play. Matches are played in best-of-three games, with each game reaching 21 points. The lightweight shuttlecock allows for high-speed rallies and impressive aerial shots. With its mix of strategy and athleticism, badminton is popular among all age groups worldwide. It fosters fun, competition, and a healthy lifestyle for players and enthusiasts alike.</p> 
+                <div id="bt"><button><a href="bmdetail.html">Read More...</a></button></div>  
+            </div>
+            
+            <div class="col-md-5 py-3 py-md-0">
+                 <div class="card">
+                    <img src="../images/badminton.webp" alt="" width="100%" height="400px"> 
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    
+    <div class="container" id="about">
+        <h3>Table Tennis</h3>
+       
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card">
+                    <img src="../images/tablett.webp" alt="" width="100%" height="400px">
+                </div>
+            </div>
+            <div class="col-md-7 py-3 py-md-0">
+                <hr><p>Table tennis, also known as ping pong, is a fast-paced and exciting sport played on a rectangular table divided by a net. It can be enjoyed as singles (one player per side) or doubles (two players per side). Players use paddles to hit a lightweight ball back and forth, aiming to score points by landing the ball on the opponent's side without a return. The game requires quick reflexes, precision, and strategic thinking. Matches are typically played to 11 points, with the winner needing at least a two-point lead. A standard table measures 9 feet long and 5 feet wide, with a net at the center. Table tennis is loved worldwide for its accessibility and adaptability, played in homes, schools, and professional arenas. It promotes coordination, focus, and physical fitness. Whether for fun or competition, table tennis is a game that brings people of all ages together.</p>
+                <div id="bt"><button><a href="ttdetail.html">Read More...</a></button></div> </hr>
+            </div>
+           
+        </div>
+    </div>
+    <div class="container" id="about">
+        <hr> <h3>Volleyball</h3> </hr>
+        
+         <div class="row" style="margin-top: 50px;">
+             <div class="col-md-7 py-3 py-md-0">
+                <hr> <p>Volleyball is an exciting team sport played on a rectangular court divided by a net. Each team consists of six players aiming to score points by grounding the ball on the opposing team’s side. Players use their hands, arms, or any part of their body to serve, pass, set, spike, or block the ball. The game emphasizes teamwork, coordination, and strategy, making it thrilling for participants and spectators alike. Matches are typically played in best-of-five sets, with each set won by reaching 25 points (with a two-point lead). The court measures 18 meters by 9 meters, with the net height set at 2.43 meters for men and 2.24 meters for women. Volleyball is played indoors, on beaches, and in recreational settings worldwide. It offers physical fitness benefits like agility, strength, and endurance. With its vibrant energy, volleyball fosters a sense of community and competition for players of all levels.</p> 
+                 <div id="bt"><button><a href="volybl.html">Read More...</a></button></div>  
+             </div>
+             
+             <div class="col-md-5 py-3 py-md-0">
+                  <div class="card">
+                     <img src="../images/vollyball.webp" alt="" width="100%" height="400px"> 
+                 </div>
+             </div>
+            
+         </div>
+     </div>
+     <div class="container" id="about">
+        <h3>Boxing</h3>
+       
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card">
+                    <img src="../images/Boxing.avif" alt="" width="100%" height="400px">
+                </div>
+            </div>
+            <div class="col-md-7 py-3 py-md-0">
+                <hr><p>Boxing is a high-intensity combat sport where two fighters compete in a ring, using strategy, strength, and technique to outscore or outmatch their opponent. Fighters wear padded gloves and adhere to rules to ensure fairness and safety. The match is divided into timed rounds, typically lasting three minutes each, with one-minute breaks in between. Points are scored through clean punches landed on the opponent's torso and head. Boxing requires exceptional physical conditioning, mental focus, and agility. Matches can end by decision, knockout (KO), or technical knockout (TKO). The sport is practiced professionally, recreationally, and as a fitness activity worldwide. Boxing builds endurance, strength, and discipline, offering participants a powerful workout and competitive thrill. It has a rich history and continues to captivate audiences through its mix of skill, courage, and spectacle.</p>
+                <div id="bt"><button><a href="boxing.html">Read More...</a></button></div> </hr>
+            </div>
+           
+        </div>
+    </div>
+    <div class="container" id="about">
+        <hr> <h3>Bowling</h3> </hr>
+        
+         <div class="row" style="margin-top: 50px;">
+             <div class="col-md-7 py-3 py-md-0">
+                <hr> <p>Bowling is a popular sport where players roll a heavy ball down a lane with the goal of knocking down pins arranged in a triangular shape. The standard game features ten pins and is played over ten frames. Each player gets two chances to knock down all ten pins in each frame, except for the tenth, where a player may get a third roll if they score a strike or spare. A strike occurs when all ten pins are knocked down on the first roll of a frame. A spare is when all ten pins are knocked down after both rolls in a frame. Points are awarded based on how many pins are knocked down, with bonus points added for strikes and spares. The maximum score is 300, achieved by getting a strike in every frame. Bowling can be played casually or competitively, often in leagues or tournaments. It is a sport enjoyed by people of all ages and skill levels. The game emphasizes accuracy, consistency, and technique.</p> 
+                 <div id="bt"><button><a href="bowling.html">Read More...</a></button></div>  
+             </div>
+             
+             <div class="col-md-5 py-3 py-md-0">
+                  <div class="card">
+                     <img src="../images/bowling.webp" alt="" width="100%" height="400px"> 
+                 </div>
+             </div>
+            
+         </div>
+     </div>
+    
+  
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+  
+              <div class="col-lg-3 col-md-6 footer-contact">
+                <h3>RYAN SPORTS CLUB</h3>
+                <p>
+                  <i class="bx bx-chevron-right"></i>Karachi <br> 
+                  <i class="bx bx-chevron-right"></i>Sindh <br> 
+                  <i class="bx bx-chevron-right"></i>Pakistan <br> 
+                </p>
+                <strong>Phone:</strong> +923345987677 <br>
+                <strong>Email:</strong> Ryansportsclub@gmail.com <br>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Usefull Links</h4>
+               <ul>
+                <li><i class="bx bx-chevron-right"></i><a href="#">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i><a href="#">About Us</a></li>
+                <li><i class="bx bx-chevron-right"></i><a href="#">Membership</a></li>
+                <li><i class="bx bx-chevron-right"></i><a href="#">Feedback</a></li>
+                <li><i class="bx bx-chevron-right"></i><a href="#">Contact us</a></li>
+               </ul>
+              </div>
+  
+  
+  
+             
+  
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Services</h4>
+  
+               <ul>
+                <li><i class="bx bx-chevron-right"></i><a href="indoor.html">Indoor</a></li>
+                <li><i class="bx bx-chevron-right"></i><a href="outdoor.html">Outdoor</a></li>
+                <li><i class="bx bx-chevron-right"></i><a href="recreational.html">Recreational</a></li>
+                <li><i class="bx bx-chevron-right"></i><a href="#">Events</a></li>
+                <li><i class="bx bx-chevron-right"></i><a href="#">Suggest & Complaint</a></li>
+               </ul>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Social Networks</h4>
+                <p style="color: white;">Feel free to contact us and know more about us !</p>
+  
+                <div class="socail-links mt-3">
+                  <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.skype.com" target="_blank"><i class="fa-brands fa-skype"></i></a>
+                  <a href="https://www.linkin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+              
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="container py-4">
+          <div class="copyright">
+            &copy; Copyright <strong><span>RYAN SPORTS CLUB</span></strong>. All Rights Reserved
+          </div>
+          
+        </div>
+      </footer>
+      <!-- footer -->
+  
+
+</body>
+</html>

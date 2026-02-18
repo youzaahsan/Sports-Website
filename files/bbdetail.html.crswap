@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indoor.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<nav class="navbar navbar-expand-lg navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">RYAN-Sports-Club</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Suggestion & Complaints</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Feedback</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sports
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Indoor</a></li>
+              <li><a class="dropdown-item" href="#">Outdoor</a></li>
+              <li><a class="dropdown-item" href="#">Recreational</a></li>
+            </ul>
+          </li>
+         
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<body>
+  <div class="container">
+    <h3>BASKETBALL!</h3>
+    <img src="images/picture 2.webp" alt="" style="height: 50vh;" width="500vh" class="img">
+<h5>Basic overview</h5>
+    <p>Basketball is a  team sport where two teams of a five players aim to score by shooting a ball into a 10 feet high loop,Field goals are worth 2 or 3 points,and free throws score 1 point</p><br>
+    <h5>Court and positions</h5>
+    <p>The game is played on a rectangular court.key player positions,include point guard,small forward,power forward,and center.The NBA is the most popular professional league </p>
+    
+    <h5>Skills and violation</h5>
+     <p>Players advance the ball by dribbing or passing.offense strategles include laytups,junp shots,and dunks,while deffense involves strealing,blockingand rebounding.Violations include traveling and double dribbling.</p>
+    <h5>History and Violations</h5>
+    <p>Basketball was invented in 1891 by james Nasimlth in Springfield,Massachaness.It has rown introduced one of the most popular sports globally.</p>
+     <h5>International competition</h5>
+     <p>Major International events include the FIBA World Cup and Olympic Basketball tournament,The top Europeon league is the Euroleague, and the WNBA is the main women basketball league in North America.</p>
+     <img src="images/b1.jpg" alt="" height="20vh " width="400">
+     <h5>Famous players</h5>
+   <p>Notable Basketball players include Michael Jordan, Lebran james, kabe Baryant,and Kareem Abdul Jabbar.</p>
+     
+        <h2>Early History <br></h2>
+       <p> A game similar to basketball is mentioned in a 1591 book published in Frankfurt am Main that reports on the lifestyles and customs of coastal North American residents, Wahrhafftige Abconterfaytung der Wilden (German; translates as Truthful Depictions of the Savages:[5] "Among other things, a game of skill is described in which balls must be thrown against a target woven from twigs, mounted high on a pole. There's a small reward for the player if the target is being hit."<br> <br><br> <br>
+        <div class="image-container">
+          <img src="images/bb2.jpg" alt="Image 1">
+          <img src="images/bm3.png" alt="Image 2">
+          <img src="images/bdmntn 4.jpg" alt="Image 3">
+        </div>
+         <div class="image-container">
+          <img src="images/im1.jpg"Image 1">
+          <img src="images/im2.webp" alt="Image 2">
+          <img src="images/im3.avif" alt="Image 3">
+        </div>
+        <h2>Creation</h2>
+        <video width="1200" height="500" controls>
+          <source src="images/video 1.mp4" type="video/mp4">
+          <source src="images/video 1.mp4" type="video/ogg">
+          Your browser does not support HTML video.
+        </video>
+        
+        <p>
+        
+        <a href="https://www.bigbuckbunny.org/" target="_blank"></a>.
+        </p>
+        
+        <h2>Rules and Regulations</h2> <br>
+        <p>The object of the game is to outscore one's opponents by throwing the ball through the opponents' basket from above while preventing the opponents from doing so on their own. An attempt to score in this way is called a shot. A successful shot is worth two points, or three points if it is taken from beyond the three-point arc 6.75 meters (22 ft 2 in) from the basket in international games[40] and 23 feet 9 inches (7.24 m) in NBA games.[41] A one-point shot can be earned when shooting from the foul line after a foul is made. After a team has scored from a field goal or free throw, play is resumed with a throw-in awarded to the non-scoring team taken from a point beyond the endline of the court where the points were scored.[42]<br><br></p>
+        <img src="images/picture 5.webp" alt="">
+        <h4>Playing Regulations</h4>
+          <h5>Basketball Game Overview</h5>
+        
+          <section>
+            
+           <p> <ul>
+              <li><strong>Professional Leagues:</strong>
+                <ul>
+                  <li>FIBA: 4 quarters of 10 minutes</li>
+                  <li>NBA: 4 quarters of 12 minutes</li>
+                </ul>
+                
+              </li>
+              <li><strong>College:</strong>
+                <ul>
+                  <li>Men's: 2 halves of 20 minutes</li>
+                  <li>Women's: 4 quarters of 10 minutes</li>
+                </ul>
+               
+              </li>
+              <li><strong>High School (USA):</strong> 4 quarters, typically 8 minutes (varies by state)</li>
+              <li><strong>Halftime Break:</strong>
+                <ul>
+                  <li>FIBA, NBA, NCAA: 15 minutes</li>
+                  <li>High School: 10 minutes</li>
+                </ul>
+              </li>
+              <li><strong>Overtime:</strong>
+                <ul>
+                  <li>Professional/College: 5 minutes</li>
+                  <li>High School: 4 minutes</li>
+                </ul>
+                
+              </li>
+              <li><strong>Game Length:</strong> Actual game time is longer than listed due to clock stoppages.</li>
+            </ul>
+          </section>
+        
+          <section>
+            <img src="images/bb2.jpg" alt="">
+             <h5>Team Setup</h5>
+            <ul>
+              <li><strong>Players on Court:</strong> 5 per team</li>
+              <li><strong>Substitutions:</strong> Unlimited, but only when play is stopped</li>
+              <li><strong>Team Personnel:</strong> Coach, assistant coaches, statisticians, trainers, etc.</li>
+            </ul>
+          </section>
+          
+          <section>
+            <h5>Player Uniforms</h5>
+            <ul>
+              <li><strong>Standard Kit:</strong> Shorts and jersey with visible unique numbers, high-top sneakers</li>
+              <li><strong>Design:</strong> Jerseys may include team/player names and sponsor logos (outside North America)</li>
+            </ul>
+          </section>
+        
+          <section>
+           <h5>Time-Outs</h5>
+            <ul>
+              <li><strong>Duration:</strong> Typically 1 minute (100 seconds in the NBA), may be extended for TV commercials</li>
+            </ul>
+          </section>
+        
+          <section>
+            <h5>Officials</h5>
+            <ul>
+              <li><strong>On-Court Officials:</strong>
+                <ul>
+                  <li>FIBA: 1 referee, 2 umpires</li>
+                  <li>NBA: 1 crew chief, 2 referees</li>
+                  <li>College/High School: Typically 3 referees</li>
+                </ul>
+              </li>
+              <li><strong>Table Officials:</strong> Track scoring, time, fouls, substitutions, and shot clock</li>
+            </ul></p>
+          </section>
+        
+       
+        
+        
+       <h2> Equipment <br></h2>
+        
+       <p> The only essential equipment in a basketball game is the ball and the court: a flat, re There are also limits on how players may block an opponent's field goal attempt or help a teammate's field goal attempt. Goaltending is a defender's touching of a ball that is on a downward flight toward the basket, while the related violation of basket interference is the touching of a ball that is on the rim or above the basket, or by a player reaching through the basket from below. Goaltending and basket interference committed by a defender result in awarding
+      </p>
+
+<div class="image-container">
+  <img src="images/bas1.webp" alt="Image 1" >
+  <img src="images/bas 2.webp" alt="Image 2" >
+  
+  
+  
+  
+</div>
+        
+        <br><br>
+        </p>
+       
+</div>
+    
+  
+</body>
+</html>

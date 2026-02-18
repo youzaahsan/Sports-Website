@@ -1,0 +1,29 @@
+.events{
+  height: 40vh;
+  width: 100%;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5vh
+}
+.events img{
+  width: 50vh;
+  height: 38vh;
+  margin: 1vh;
+}.content{
+  margin-left:5px;
+}
+.content p{
+ font-size:20px ;
+}.content h1{
+  font-size: 30px;
+}.content a{
+  text-decoration: none;
+  border: solid 1px;
+  padding: 5px;
+  color: white
+}
+  
+  

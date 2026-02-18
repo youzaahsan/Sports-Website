@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="navbar.css">
+  <title>Sports Club Navbar</title>
+</head>
+<body>
+  <nav class="navbar">
+   
+    <button class="menu-toggle" id="menu-toggle">
+      ☰
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#events">Membership</a></li>
+      <li class="dropdown">
+        <a href="#teams" class="dropdown-toggle">Sports </a>
+        <ul class="dropdown-menu">
+          <li><a href="indoor.html">Indoor</a></li>
+          <li><a href="outdoor.html">Outdoor</a></li>
+          <li><a href="recreational.html">Recreational</a></li>
+        </ul>
+      </li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#events">Feedback</a></li>
+      <li><a href="#contact">Suggest and Complaint</a></li>
+    </ul>
+  </nav>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('show');
+  });
+  
+  </script>
+</body>
+</html>

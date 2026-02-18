@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    color:white;
+    background-color: green;
+    
+}.container-fluid a{
+   color: white;}
+ h1{
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}.logo img{
+    height: 100px;
+margin-right: 30px;
+width: 100px;}
+.items{
+    justify-content: flex-end;
+     
+}
+
+.btn{
+     background-color: white;                                         
+}.btn:hover{
+background-color: black;
+}.nav-item a:hover{
+    border-bottom: solid 1px;
+    color:#ffc800;
+}
+.nav-link a{
+    color: white;
+    
+}
+.nav-item a{
+ color: white;
+
+}
+.nav-item dropdown a {
+  color: white;
+}
+.dropdown-menu a{
+ color: black;
+}

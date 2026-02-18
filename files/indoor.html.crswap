@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indoor.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<nav class="navbar navbar-expand-lg navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sports
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #1c1c50;">
+              <li><a class="dropdown-item" href="refrigerator.html">Indoor Sports</a></li>
+              <li><a class="dropdown-item" href="machine.html">Outdoor Sports</a></li>
+              <li><a class="dropdown-item" href="Water dispancer.html">Recreational sports</a></li>
+             
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          
+         
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success button" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+ 
+
+<body>
+    <div class="container" id="about">
+        <h3>Welcome to our Indoor sports club!</h3>
+        <hr><p>
+            Indoor games and sports are a variety of structured games or competitive physical exercises, typically carried out either at home, in a well-sheltered building, or in a specially constructed sport venue such as a gym, a natatorium, an arena or a roofed stadium.</p>
+        <hr>
+       
+    </div>
+
+    <div class="container" id="about">
+        <h3>Basketball</h3>
+       
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card">
+                    <img src="./images/picture.webp" alt="" width="100%" height="400px">
+                </div>
+            </div>
+            <div class="col-md-7 py-3 py-md-0">
+                <hr><p>Basketball is an exciting and fast-paced team sport played on a rectangular court with two hoops at opposite ends. Each team consists of five players aiming to score points by shooting the ball through the opposing team's hoop. Points are awarded for field goals (2 or 3 points) and free throws (1 point). The game emphasizes athleticism, strategy, and teamwork, making it thrilling to play and watch. A standard basketball court includes key areas like the three-point arc, free-throw line, and center circle. Professional games are played in four quarters, typically lasting 48 minutes in the NBA. Basketball is accessible to all, requiring only a ball and a hoop to play. It promotes physical fitness, coordination, and quick decision-making. With global leagues and tournaments, the sport enjoys immense popularity worldwide. Basketball unites players and fans in a shared passion for the game.</p>
+                <div id="bt"><button><a href="bbdetail.html">Read More...</a></button></div> </hr>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="container" id="about">
+       <hr> <h3>Badminton</h3> </hr>
+       
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-7 py-3 py-md-0">
+               <hr> <p>Badminton is a fast-paced and engaging racket sport played on a rectangular court divided by a net. It can be played in singles (one player per side) or doubles (two players per side). The objective is to score points by hitting a shuttlecock over the net into the opponent's court, ensuring it isn’t returned. Precision, agility, and quick reflexes are key to mastering the game. Played both indoors and outdoors, badminton is loved for its accessibility and fitness benefits. A standard court features defined boundaries, a central net, and clear markings for singles and doubles play. Matches are played in best-of-three games, with each game reaching 21 points. The lightweight shuttlecock allows for high-speed rallies and impressive aerial shots. With its mix of strategy and athleticism, badminton is popular among all age groups worldwide. It fosters fun, competition, and a healthy lifestyle for players and enthusiasts alike.</p> 
+                <div id="bt"><button><a href="bmdetail.html">Read More...</a></button></div>  
+            </div>
+            
+            <div class="col-md-5 py-3 py-md-0">
+                 <div class="card">
+                    <img src="./images/badminton.webp" alt="" width="100%" height="400px"> 
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    
+    <div class="container" id="about">
+        <h3>Table Tennis</h3>
+       
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card">
+                    <img src="./images/tablett.webp" alt="" width="100%" height="400px">
+                </div>
+            </div>
+            <div class="col-md-7 py-3 py-md-0">
+                <hr><p>Table tennis, also known as ping pong, is a fast-paced and exciting sport played on a rectangular table divided by a net. It can be enjoyed as singles (one player per side) or doubles (two players per side). Players use paddles to hit a lightweight ball back and forth, aiming to score points by landing the ball on the opponent's side without a return. The game requires quick reflexes, precision, and strategic thinking. Matches are typically played to 11 points, with the winner needing at least a two-point lead. A standard table measures 9 feet long and 5 feet wide, with a net at the center. Table tennis is loved worldwide for its accessibility and adaptability, played in homes, schools, and professional arenas. It promotes coordination, focus, and physical fitness. Whether for fun or competition, table tennis is a game that brings people of all ages together.</p>
+                <div id="bt"><button><a href="bbdetail.html">Read More...</a></button></div> </hr>
+            </div>
+           
+        </div>
+    </div>
+    <div class="container" id="about">
+        <hr> <h3>Volleyball</h3> </hr>
+        
+         <div class="row" style="margin-top: 50px;">
+             <div class="col-md-7 py-3 py-md-0">
+                <hr> <p>Volleyball is an exciting team sport played on a rectangular court divided by a net. Each team consists of six players aiming to score points by grounding the ball on the opposing team’s side. Players use their hands, arms, or any part of their body to serve, pass, set, spike, or block the ball. The game emphasizes teamwork, coordination, and strategy, making it thrilling for participants and spectators alike. Matches are typically played in best-of-five sets, with each set won by reaching 25 points (with a two-point lead). The court measures 18 meters by 9 meters, with the net height set at 2.43 meters for men and 2.24 meters for women. Volleyball is played indoors, on beaches, and in recreational settings worldwide. It offers physical fitness benefits like agility, strength, and endurance. With its vibrant energy, volleyball fosters a sense of community and competition for players of all levels.</p> 
+                 <div id="bt"><button><a href="bmdetail.html">Read More...</a></button></div>  
+             </div>
+             
+             <div class="col-md-5 py-3 py-md-0">
+                  <div class="card">
+                     <img src="./images/vollyball.webp" alt="" width="100%" height="400px"> 
+                 </div>
+             </div>
+            
+         </div>
+     </div>
+     <div class="container" id="about">
+        <h3>Boxing</h3>
+       
+        <div class="row" style="margin-top: 50px;">
+            <div class="col-md-5 py-3 py-md-0">
+                <div class="card">
+                    <img src="./images/tablett.webp" alt="" width="100%" height="400px">
+                </div>
+            </div>
+            <div class="col-md-7 py-3 py-md-0">
+                <hr><p>Boxing is a high-intensity combat sport where two fighters compete in a ring, using strategy, strength, and technique to outscore or outmatch their opponent. Fighters wear padded gloves and adhere to rules to ensure fairness and safety. The match is divided into timed rounds, typically lasting three minutes each, with one-minute breaks in between. Points are scored through clean punches landed on the opponent's torso and head. Boxing requires exceptional physical conditioning, mental focus, and agility. Matches can end by decision, knockout (KO), or technical knockout (TKO). The sport is practiced professionally, recreationally, and as a fitness activity worldwide. Boxing builds endurance, strength, and discipline, offering participants a powerful workout and competitive thrill. It has a rich history and continues to captivate audiences through its mix of skill, courage, and spectacle.</p>
+                <div id="bt"><button><a href="bbdetail.html">Read More...</a></button></div> </hr>
+            </div>
+           
+        </div>
+    </div>
+    
+
+</body>
+</html>

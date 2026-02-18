@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARVEL ELECTRONIC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<script>
+    const imgs = document.querySelectorAll('.img-select a');
+    const imgBtns = [...imgs];
+    let imgId = 1;
+
+    imgBtns.forEach((imgItem) => {
+        imgItem.addEventListener('click', (event) => {
+            event.preventDefault();
+            imgId = imgItem.dataset.id;
+            slideImage();
+        });
+    });
+
+    function slideImage() {
+        const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+        document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+    }
+
+    window.addEventListener('resize', slideImage)
+</script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+    /* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+} */
+    /* body {
+        line-height: 0.6;
+    } */
+
+    .card-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        line-height: 0.7;
+        margin-top: 25px;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    .img-display {
+        overflow: hidden;
+    }
+
+    .img-showcase {
+        display: flex;
+        /* margin-top: 20px; */
+        width: 80%;
+        transition: all 0.5s ease;
+    }
+
+    .img-showcase img {
+        min-width: 50%;
+    }
+
+    .img-select {
+        display: flex;
+    }
+
+    .img-item {
+        margin: 0.3rem;
+    }
+
+    .img-item:nth-child(1),
+    .img-item:nth-child(2),
+    .img-item:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .img-item:hover {
+        opacity: 0.8;
+    }
+
+    .product-content {
+        padding: 2rem 1rem;
+    }
+
+    .product-title {
+        font-size: 3rem;
+        text-transform: capitalize;
+        font-weight: 700;
+        position: relative;
+        color: rgb(25, 119, 148);
+        margin: 1rem 0;
+    }
+
+    .product-title::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 4px;
+        width: 200px;
+        background: #ffc800;
+    }
+
+    .product-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 0.9rem;
+        display: inline-block;
+        margin-bottom: 0.5rem;
+        background: #ffc800;
+        color: #0a0a0a;
+        padding: 0 0.3rem;
+        transition: all 0.5s ease;
+    }
+
+    .product-link:hover {
+        opacity: 0.9;
+    }
+
+    .product-rating {
+        color: #ffc107;
+    }
+
+    .product-rating span {
+        font-weight: 600;
+        color: #252525;
+    }
+
+    .product-price {
+        margin: 1rem 0;
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+    .product-price span {
+        font-weight: 400;
+    }
+
+    .last-price span {
+        color: #f64749;
+        text-decoration: line-through;
+    }
+
+    .new-price span {
+        color: rgb(25, 119, 148);
+    }
+
+    .product-detail h2 {
+        text-transform: capitalize;
+        color: rgb(25, 119, 148);
+        padding-bottom: 0.6rem;
+    }
+
+    .product-detail p {
+        font-size: 15px;
+        margin-bottom: 20px;
+        padding: 0.3rem;
+        margin: auto;
+        opacity: 0.9;
+        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+
+    .product-detail ul {
+        margin: 1rem 0;
+        font-size: 0.9rem;
+    }
+
+    .product-detail ul li {
+        margin: 0;
+        list-style: none;
+        background: url(images/checkedpng.png) left center no-repeat;
+        background-size: 12px;
+        padding-left: 1.7rem;
+        margin: 0.4rem 0;
+        font-weight: 600;
+        opacity: 0.9;
+    }
+
+    .product-detail ul li span {
+        font-weight: 400;
+    }
+
+    .purchase-info {
+        margin: 1.5rem 0;
+    }
+
+    .purchase-info input,
+    .purchase-info .btn {
+        border: 1.5px solid rgb(25, 119, 148);
+        border-radius: 25px;
+        text-align: center;
+        padding: 0.45rem 0.8rem;
+        outline: 0;
+         margin-right: 0.2rem;
+    
+    }
+
+    .purchase-info input {
+        width: 60px;
+    }
+
+    .purchase-info .btn {
+        cursor: pointer;
+        color: #fff;
+        
+    }
+
+    .purchase-info .btn:first-of-type {
+        background: #256eff;
+    }
+
+    .purchase-info .btn:last-of-type {
+        background: rgb(25, 119, 148);
+    }
+
+    .purchase-info .btn:hover {
+        opacity: 0.9;
+        background-color: #ffc107;
+        color: rgb(25, 119, 148);
+    }
+
+    .social-links {
+        display: flex;
+        align-items: center;
+    }
+
+    .social-links a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        color: #000;
+        border: 1px solid #000;
+        margin: 0 0.2rem;
+        border-radius: 50%;
+        text-decoration: none;
+        font-size: 0.8rem;
+        transition: all 0.5s ease;
+    }
+
+    .social-links a:hover {
+        background: rgb(25, 119, 148);
+        border-color: transparent;
+        color: #fff;
+    }
+
+    @media screen and (min-width: 992px) {
+        .card {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1.5rem;
+        }
+
+        .card-wrapper {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .product-imgs {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .product-content {
+            padding-top: 0;
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar " id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html" id="logo"><span id="span1">H</span>arvel <span>Electronic</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><img src="./images/menu.png" alt="" width="30px"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #1c1c50;">
+                            <li><a class="dropdown-item" href="refrigerator.html">REFRIGERATOR</a></li>
+                            <li><a class="dropdown-item" href="machine.html">WASHING MACHINE</a></li>
+                            <li><a class="dropdown-item" href="Water dispancer.html"> WATER DISPENSER</a></li>
+                            <li><a class="dropdown-item" href="led.html">LED TV</a></li>
+                            <li><a class="dropdown-item" href="ac.html">AIR CONDITIONER</a></li>
+                            <li><a class="dropdown-item" href="microwave.html">MICROWAVE OVEN</a></li>
+                        
+                            
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="icons">
+                    <!-- <a href="login.html"><img src="./images/register.png" alt="" width="18px">Login</a> -->
+                    <a href="login.html"><img src="./images/register.png" alt="" width="18px">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+
+    <div class="card-wrapper">
+        <div class="card">
+            <!-- card left -->
+            <div class="product-imgs">
+                <div class="img-display">
+                    <div class="img-showcase">
+                        <img src="images/led tv/pel.jpeg" alt="fridge image">
+                    </div>
+                </div>
+
+            </div>
+            <!-- card right -->
+            <div class="product-content">
+                <h2 class="product-title">PEL LED TV</h2>
+                <a href="home.html" class="product-link">visit our website</a>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>4.7(21)</span>
+                </div>
+
+                <div class="product-price">
+                    <p class="last-price">Old Price: <span>Rs 40,000</span></p>
+                    <p class="new-price">New Price: <span>Rs 34,000 (5%)</span></p>
+                </div>
+
+                <div class="product-detail">
+                    <h2>about this item: </h2>
+                    <p>LED TV is a type of LCD television that uses <br> <br>light-emitting diodes
+                       
+                        (LEDs) to backlight the display <br> <br>instead of the cold cathode fluorescent  <br>
+             <br>lights (CCFLs) used in standard LCD televisions<br> <br> LED TVs are more formally known as LED-backlight LCD television.
+                </p>
+                    <ul>
+
+                        <li>Color: <span>Black</span></li>
+                        <li>Available: <span>in stock</span></li>
+                        <li>Dimension: <span>1641*595*600</span></li>
+                        <li>Size: <span>55</span></li>
+                        <li>Shipping Area: <span>All over the city</span></li>
+                        <li>Shipping Fee: <span>Free</span></li>
+                    </ul>
+                </div>
+
+                <div class="purchase-info">
+                    <input type="number" min="0" value="1">
+                    <button type="button" class="btn">
+                        Add to Cart <i class="fas fa-shopping-cart"></i>
+                    </button>
+                    <a href="harvel electronic/harvel electronic/word file/l Pel.docx"><button type="button" class="btn">Download</button></a>
+                </div>
+
+                <div class="social-links">
+                    <p>Share At: </p>
+                    <a href="https://www.facebook.com"">
+                <i class = " fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container" id="offer">
+        <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h3>Free Shipping</h3>
+                <p>On order over $2000</p>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-rotate-left"></i>
+                <h3>Free Returns</h3>
+                <p>Within 20 days</p>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-truck"></i>
+                <h3>Fast Delivery</h3>
+                <p>World Wide</p>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h3>Big choice</h3>
+                <p>For you</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="arrow"><i><img src="./images/arrow.png" alt=""></i></a>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Electronicsforu.com is the digital avatar of Electronics For You (EFY) magazine. EFY was launched
+                        in 1969, and is counted amongst the leading publications in the fields of electronics and
+                        technology—across the globe.</p> <br>
+                    <p>
+                        <a href="tel:03152416541"><i class="fas fa-phone"></i> Call us</a>
+                        <a href="mailto:farwasadaqat8@gmail.com"><i class="fas fa-envelope"></i> Email us</a>
+                        <br> <br>
+                    <ul class="social-icons">
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li><a href="https://youtu.be/YS1zz7MplJ8?si=4BA3Nna0tDpgY5Zu" target="_blank"><i
+                                    class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        </u>
+                        </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><i class="bx bx-chevron-right"><a href="home.html">Home</a></i></li>
+                        <li><i class="bx bx-chevron-right"><a href="about.html">About us </i></a> </li>
+                        <li><i class="bx bx-chevron-right"><a href="contact.html">Contact Information</i></a></li>
+                        <li><i class="bx bx-chevron-right"><a href="cr.html">Costomer Reviews </a></i></li>
+                        <li><i class="bx bx-chevron-right"><a href="login.html">Register</a></i></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Shop</h5>
+                    <ul class="footer-links">
+                        <li><i class="bx bx-chevron-right"><a href="ac.html">Air Conditioner</i></a> </li>
+                        <li><i class="bx bx-chevron-right"><a href="refrigerator.html">Refrigerator</i></a></li>
+                        <li><i class="bx bx-chevron-right"><a href="microwave.html">Microwave oven</i> </a></li>
+                        <li><i class="bx bx-chevron-right"><a href="Water dispancer.html">Water Dispenser</i></a></li>
+                        <li><i class="bx bx-chevron-right"><a href="led.html">LED TV</a></i></li>
+                        <li><i class="bx bx-chevron-right"><a href="machine.html">Washing Machine</i></a></li> 
+
+                    </ul>
+                    <br><br><br><br>
+
+
+
+
+                </div>
+                <br> <br> <br>
+
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

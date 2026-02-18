@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background: url(../images/football.jpeg);
+    height:70vh ;
+    width: 100%;
+    background-color: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.events-container {
+    padding: 20px;
+}
+
+.event {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event h2 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.event p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.pictures{
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+.gallery img {
+    width: 40vh;
+    height: 30vh;
+    margin-left: 2vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(13, 129, 18);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    position: relative;
+    font-family: cursive;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+  }
+  
+  .logo {
+    height: 100px;
+    margin-right: 30px;
+    width: 100px;
+  }
+  
+  .navbar-brand span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    position: relative;
+    margin: 0 0.8rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffc800;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #080607;
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 0;
+    width: 150px;
+    border-radius: 5px;
+    z-index: 10;
+  }
+  
+  .dropdown-menu li {
+    margin: 0;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: rgb(18, 163, 18);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .dropdown-menu a:hover {
+    
+    color: #d4e8f1;
+  }
+  
+  /* Show Dropdown */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Responsive Menu */
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      display: none;
+      background-color: #004aad;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+    }
+  
+    .nav-links li {
+      margin: 0.5rem 0;
+    }
+  
+    .dropdown-menu {
+      position: static;
+      width: 100%;
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  }
